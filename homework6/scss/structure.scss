@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  .game-holder {
+    width: 150px;
+    margin-bottom: 30px;
+    border-bottom: solid 2px #000;
+    cursor: pointer;
+    height: 310px;
+    margin: 20px;
+    .brief-rating {
+      font-size: 15px;
+      height: 10px;
+      .brief-des {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .game {
+    width: 300px;
+    border-bottom: solid 2px #000;
+
+    .gameImg {
+    }
+    .gameDes {
+      margin-bottom: 30px;
+    }
+    .rating {
+    }
+    .close {
+      padding: 10px 30px;
+      cursor: pointer;
+      width: 300px;
+      background-color: crimson;
+    }
+  }
+}
